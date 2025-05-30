@@ -166,8 +166,13 @@ li{
 #navs{
     display: none;
 }
-.navtab{
-    display: none;
+#navs.nav-visible {
+    display: flex; /* Or block, based on your layout */
+    flex-direction: column;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .menu{
     display:block;
