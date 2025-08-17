@@ -1,1 +1,0 @@
-document.getElementById("landbutton").setAttribute
